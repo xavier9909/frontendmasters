@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&display=swap" rel="stylesheet"> 
+
+<title>FRONTENDMASTERS</title>
+</head>
+<body>
+
+  <div id="navbar"></div>
+
+  <div style=""> 
+    <p style="color: white;text-align: center;font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;font-size: 60px;margin-top: ;">Advance Your Skills</p>
+    <p style="color: white;text-align: center;font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;font-size: 40px;">with In-Depth, Modern</p>
+    <p style="color: white;text-align: center;font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;font-size: 40px;">Front-End Engineering Courses
+</p>
+</div > 
+    <div style="display: flex;justify-content: center;padding-top: 20px;">
+    <p style="margin-right: 20px;margin-top: 10px; height: 40px;font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;font-size: 20px;"class="btn3" >Browse Our Courses</p>
+    
+    <p style="margin-right: 20px;margin-top: 10px; height: 40px;font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;font-size: 20px;"class="btn2" >View Learning Path</p>
+
+</div>
+<video class="background" playsinline="" autoplay="" muted="" loop=""><source src="https://static.frontendmasters.com/assets/fm/med/home/hero.mp4" type="video/mp4"></video>
+<div style="margin-top:-4.2%" ><svg style="height: 60px" class="diagona" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 10" preserveaspectratio="none"><polygon points="0,8 0,10 100,10 100,3"></polygon></svg>
+</div>
+<div class="icons1">
+    <a href=""> <img src="./img/js.svg" alt="" class="icons"></a>
+    <a href=""> <img src="./img/react.svg" alt="" class="icons"></a>
+    <a href=""><img src="./img/typescript.svg" alt="" class="icons"></a>
+    <a href="">    <img src="./img/node.svg" alt="" class="icons"></a>
+    <a href="">  <img src="./img/vue.svg" alt="" class="icons"></a>
+    <a href="">   <img src="./img/angular.svg" alt="" class="icons"></a>
+    <a href="">  <img src="./img/css.svg" alt="" class="icons"></a>
+    <a href="">   <img src="./img/d3.svg" alt="" class="icons"></a>
+    <a href=""><img src="./img/webpack.svg" alt="" class="icons"></a>
+</div>
+
+<section>
+<div class="tweetbox">
+    
+    <h1 >IDHAR MERE KO TWEET DAALNE KA HAI</h1>
+
+
+
+</section>
+
+<div class="img2" >
+    <img style="height: 600px;width: 100%;  ;" class="dark"   alt="">
+</div>
+<p style="color: white; margin-right: 20px;margin-top: 10px; height: 40px;font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;font-size: 20px; text-align: center;font-size: 40px;" >Join Now and Learn Straight <br> from the Experts Who Shape
+  <p style="color: white; margin-right: 20px;margin-top: 80px; height: 40px;font-family: 'Open Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;font-size: 20px;text-align: center; font-size: 40px;">the Modern Web</p>
+  
+
+
+</p>
+<div class="txt3" ><p style="font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;font-size: 30px;margin-top: -10px;">Join Now</p></div>
+
+
+
+
+  
+    <div style="margin-top: 220px;" class="dark">
+        <img style="width: 100.1%;z-index: -2;" src="./img/boot.png" alt="">
+      </div>
+  <a href=""><p style="color: red; margin-top: -35px;margin-left: 600px;" ><u style="color: orangered;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 18px;"> More Info ></u></p></a>
+
+  <div id="footer"></div>
+</body>
+</html>
+<script type="module" >
+    import {navbar} from './src/navbar.js'
+    
+let navbar_div = document.getElementById("navbar")
+  console.log(  navbar_div.innerHTML = navbar());
+  
+</script> 
+<script type="module" >
+   
+    import {footer} from './src/footer.js'
+
+    let footer_div = document.getElementById("footer")
+   
+    console.log(footer_div.innerHTML = footer());
+</script> 
