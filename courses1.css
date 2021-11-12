@@ -1,0 +1,279 @@
+body{
+    background: #222;
+}
+#navbar{
+display: flex;
+/* justify-content: space-between; */
+flex-direction: row;
+
+
+/* border: 1px solid black; */
+padding-top: 0%;
+background-color: rgb(63, 3, 3);
+width: 100%;
+
+
+height: 60px;
+
+}
+#options{
+
+display: flex;
+margin-left: 40%;
+
+}
+.logo{
+width: 70%;
+margin-left: 35%;
+margin-top: -5px;
+}
+
+#options h3{
+margin-top: 10px;
+padding-right: 20px;
+}
+#options p{
+font-size: small;
+}
+
+.nvtxt{
+color: rgba(255, 255, 255, 0.582);
+font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+}
+.nvtxt:hover{
+color: white;
+}
+.diagonal{fill:#e66225;
+height:24px;
+width: 100%;
+
+
+}
+.btn1{
+
+padding-top: 10px;
+padding-left: 25px;
+padding-bottom: 10px;
+padding-right: 25px;
+margin-top: 2px;
+border-radius: 25px;
+background-color: rgb(199, 38, 38);
+color: rgb(255, 255, 255);
+
+}
+.btn1:hover{
+background-color: firebrick;
+}
+#img{
+width: 15%;
+margin-left: 10%;
+margin-top: .5%;;
+}
+#img img{
+width: 100%;
+}
+#ch-after-navbar{
+display: flex;
+background: #222;
+padding: 1.5%;
+margin-top: -3.5%;
+}
+#write{
+width: 100%;
+font-size: 32px;
+color: white;
+margin-top:-.1%;
+margin-left: 3%;
+}
+#ch-img{
+width: 15%;
+margin-left:3%;
+margin-top: -2%;
+}
+#ch-img img{
+width: 100%;
+border-radius: 50%;
+}
+#port{
+display: flex;
+}
+#ch-instr{
+color: white;
+}
+#ch-name{
+margin-top: 4%;
+margin-left: 1%;
+color: white;
+}
+#type a{
+color: rgb(161, 161, 161);
+}
+#ch-duration{
+margin-left: 3.5%;
+color: rgb(161, 161, 161)
+}
+.caption{
+color: black;
+background: honeydew;
+border-radius: 4px;
+}
+#ch-main{
+display: flex;
+padding: 20px;
+background: black;
+}
+#ch-jen{
+margin-left: 9%;
+width: 40%;
+height: 300px;
+margin-bottom: 2%;
+}
+#ch-jen img{
+margin-top: 2%;
+width: 100%;
+height: 100%;
+}
+#ch-jen-des{
+width: 40%;
+margin-left: 1%;
+color: white;
+}
+#btn{
+padding: 10px;
+background: rgb(214, 81, 33);
+border-radius: 30px;
+padding-left: 20%;
+padding-right: 20%;
+margin-top: 14%;
+font-size: larger;
+color: white
+}
+#btn:hover{
+cursor: pointer;
+}
+#ch-content{
+background: #222;
+}
+#ch-inner-cont{
+width: 80%;
+margin:auto;
+color: white;
+}
+#ch-intro{
+display: flex;
+margin-top: 2%;
+}
+.font{
+margin-top: -15px;
+margin-left: 2%;
+text-decoration: none;
+}
+.font a{
+text-decoration: none;
+color: white;
+}
+.ch-footer{
+    background: #111;
+    color: #8a8a8a;
+    height: 200px;
+    font-size: 14px;
+    padding: 40px 0
+}
+.ch-footer .ch-row{
+    clear: both;
+    margin: 10px 0;
+    overflow: hidden
+}
+.ch-footer .ch-row:first-child{
+    margin-top : 0;
+}
+.ch-footer .navout{
+    font-size: 16px;
+}
+.ch-nav ul{
+    display: flex;
+    list-style:none;
+    margin-left: 50%;
+    margin-top: -25px;
+}
+.ch-nav a{
+    text-decoration: none;
+    color: white
+}
+.ch-footer .androidapp,
+.ch-footer .appleapp{
+    display: flex;
+    vertical-align: middle;
+}
+.ch-footer .appleapp{
+    margin-left: 9% ;
+    margin-top: 2%;
+    padding-right :0;
+    width: 100%;
+}
+.ch-footer .androidapp{
+    margin-top: 0%;
+    width: 70%;
+    margin-left: 20%;
+    margin-top: -4.5%;
+}
+.ch-footer .contact a{
+    display: inline-block;
+}
+.ch-footer .contact span{
+    display: inline;
+}
+.ch-footer .ch-copyright a{
+    color: #8a8a8a;
+}
+.ch-footer .contact,
+.ch-footer .ch-copyright{
+    float: right;
+    margin-right: 8%;
+}
+.ch-footer .native-app-links{
+    text-align: center;
+}
+.ch-footer .social{
+    margin-left: 10%;
+    width: 50%;
+
+}
+.ch-footer .social a{
+    display: inline-block;
+    height: 35px;
+    margin-left: 5%;
+    width: 35px;
+}
+.ch-footer .social a:first-child{
+    margin-left: 0;
+}
+.ch-footer .Felogo{
+    display: inline-block;
+}
+.ch-footer .ch-navmob{
+    clear: both;
+}
+.ch-footer .ch-nav{
+    margin-top: 0%;
+    margin-right: 40%;
+}
+.ch-footer .ch-nav li{
+   margin-left: 10%;
+}
+.Felogo{
+    background-image: url(https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg);
+    display: block;
+    height: 40px;
+    margin-top: 5px;
+    width: 250px;
+    margin-left: 10%;
+}
+.social{
+    width:15%;
+
+}
+.social img{
+    width: 100%;
+}
