@@ -35,7 +35,7 @@ summary{
 .ch-navmob,
 .ch-t{
     color: transparent;
-    /* font : 0/0 a; */
+    font : 0/0 a;
     text-shadow: none;
 }
 nav ul{
@@ -101,11 +101,12 @@ h3{
     padding-top: 40px;
 }
 .ch-wrap{
+    border: 1px solid green;
     margin-left: auto;
     margin-right: auto;
     max-width : 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
 } 
 .ch-navmob,
@@ -543,6 +544,7 @@ body{
 
 .ch-coursesearch{
     background: #3e3e3e;
+    margin-top: 3%;
     border: none;
     border-radius : 4px;
     color: #fff;
@@ -657,12 +659,12 @@ display: flex;
 /* justify-content:  space-between; */
 margin-right: 2.5%;
 float: right;
-margin-top:-7%;
-margin-right: 7%;
+margin-top:-6%;
+margin-right: 12%;
 }
 .logo{
-width: 20%;
-margin-left: 11%;
+width: 15%;
+margin-left: 18%;
 margin-top: 15px;
 }
 
@@ -701,4 +703,8 @@ color: rgb(255, 255, 255);
 }
 .btn1:hover{
 background-color: firebrick;
+}
+#ch-main{
+    border: 1px solid red;
+    margin-top: -3.5%;
 }
