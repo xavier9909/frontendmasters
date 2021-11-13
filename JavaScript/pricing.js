@@ -1,12 +1,33 @@
-function transform() {
-    
-    let div = document.querySelector('.subscription');
-    div.style.background= "#90221E";
-    div.style.transform= "scale(1,1.05)";
-    div.style.borderTop = "7px solid #C02D28"
+function transform(id) {
 
-    let icon = document.querySelector('.fas');
-    icon.style.opacity = "1";
+    // console.log(id);
+     
+     for (let i = 1; i<=4 ; i++) {
+       if(i==id) {
+        let div = document.getElementById(`subscription${id}`);
+
+        div.style.background= "#90221E";
+        div.style.transform= "scale(1,1.05)";
+        div.style.borderTop = "7px solid #C02D28"
+    
+        let icon = document.getElementById(`icon${id}`);
+        icon.style.opacity = "1";
+        
+       }else {
+
+        let div = document.getElementById(`subscription${i}`);
+
+        div.style.background= "black";
+        div.style.transform= "scale(1,1)";
+        div.style.borderTop = "7px solid #3e3e3e"
+    
+        let icon = document.getElementById(`icon${i}`);
+        icon.style.opacity = "0.4";
+       }   
+
+     }
+
+   
 }
 
 function Signup(e) {
@@ -39,6 +60,9 @@ function Signup(e) {
       .then((res) => {
         console.log("res:", res);
         alert(res.message);
+        user_data.name.value = ""; 
+        user_data.email.value = "";
+        user_data.password.value ="";       
       })
       .catch((err) => {
         console.log("err:", err);
