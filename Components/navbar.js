@@ -7,7 +7,7 @@ function navbar() {
 <h3><a style="text-decoration: none;"href=""><p class="nvtxt">Learn</p></a></h3>
 <h3><a style="text-decoration: none;"href="../HTML/pricing.html"><p class="nvtxt">Pricing</p></a></h3>
 <h3><a style="text-decoration: none;"href="../HTML/login.html"><p class="nvtxt">Login</p></a></h3>
-<h3><a style="text-decoration: none; class="btn1" "href="../HTML/pricing.html"><p class="nvtxt btn1">Join Now</p></a></h3>
+<h3><a style="text-decoration: none;  "href="../HTML/pricing.html"><p class=" btn1">Join Now</p></a></h3>
 
 </div>
 </div>
