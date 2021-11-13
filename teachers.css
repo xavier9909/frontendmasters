@@ -1,0 +1,199 @@
+body{
+    background-color: #222 ;
+}
+#navbar{
+    display: flex;
+    flex-direction: row;
+    padding-top: 0%;
+    background-color: rgb(63, 3, 3);
+    width: 100%;
+    height: 70px;
+    }
+    #options{
+    display: flex;
+    /* justify-content:  space-between; */
+    margin-right: 2.5%;
+    float: right;
+    margin-top:-.5%;
+    margin-left: 40%;
+    }
+    .logo{
+    width: 70%;
+    margin-left: 70%;
+    margin-top: 0px;
+    }
+    
+    #options h3{
+    /* padding-left:30px ; */
+    padding-right: 20px;
+    margin-top: 25px;
+    }
+    
+    .nvtxt{
+    color: rgba(255, 255, 255, 0.582);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    }
+    .nvtxt:hover{
+    color: white;
+    }
+    .diagonal{fill:#e66225;
+    height:24px;
+    width: 100%;
+    position:static;
+    
+    
+    }
+    .btn1{
+    
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    margin-top: 5px;
+    border-radius: 25px;
+    background-color: rgb(199, 38, 38);
+    color: rgb(255, 255, 255);
+    
+    }
+    .btn1:hover{
+    background-color: firebrick;
+    }
+    .after-dia{
+        margin-top: -2.5%;
+    }
+    .line{
+        width: 74%;
+        margin: auto;
+        border: 1px solid rgb(124, 59, 59);
+        background-color: rgb(138, 138, 138);
+    }
+
+    .teach{
+        width: 75%;
+        margin: auto;
+        display: flex;
+    }
+    .list{
+        margin: 1%;
+        width: 35%;
+        background-color: rgb(22, 22, 22);
+    }
+    .list p{
+        margin-left: 5%;
+        color: rgb(95, 93, 93);
+        font-size: large;
+    }
+    .list img{
+        width: 90%;
+        margin-left : 5%;
+        margin-bottom: 3%;
+    }
+    .ch-footer{
+      background: #111;
+      color: #8a8a8a;
+      height: 200px;
+      font-size: 14px;
+      padding: 40px 0
+  }
+  .ch-footer .ch-row{
+      clear: both;
+      margin: 10px 0;
+      overflow: hidden
+  }
+  .ch-footer .ch-row:first-child{
+      margin-top : 0;
+  }
+  .ch-footer .navout{
+      font-size: 16px;
+  }
+  .ch-nav ul{
+      display: flex;
+      list-style:none;
+      margin-left: 40%;
+      margin-top: -30px;
+  }
+  .ch-nav a{
+      text-decoration: none;
+      color: white;
+      margin-left: 0%;
+  }
+  .ch-footer .androidapp,
+  .ch-footer .appleapp{
+      display: flex;
+      vertical-align: middle;
+  }
+  .ch-footer .appleapp{
+      margin-left: 9% ;
+      margin-top: 2%;
+      padding-right :0;
+      width: 100%;
+  }
+  .ch-footer .androidapp{
+      margin-top: 0%;
+      width: 70%;
+      margin-left: 20%;
+      margin-top: -3.7%;
+  }
+  .ch-footer .contact a{
+    text-decoration: none;
+    color: orangered;
+      display: inline-block;
+  }
+  .ch-footer .contact span{
+      display: inline;
+  }
+  .ch-footer .ch-copyright a{
+      color: #8a8a8a;
+  }
+  .ch-footer .contact,
+  .ch-footer .ch-copyright{
+      float: right;
+      margin-right: 8%;
+  }
+  .ch-footer .native-app-links{
+      text-align: center;
+  }
+  .ch-footer .social{
+      margin-left: 10%;
+      width: 50%;
+  
+  }
+  .ch-footer .social a{
+      display: inline-block;
+      height: 35px;
+      margin-left: 1%;
+      width: 40px;
+  }
+  .ch-footer .social a:first-child{
+      margin-left: 0;
+  }
+  .ch-footer .Felogo{
+      display: inline-block;
+  }
+  .ch-footer .ch-navmob{
+      clear: both;
+  }
+  .ch-footer .ch-nav{
+      margin-top: 0%;
+      margin-right: 40%;
+  }
+  .ch-footer .ch-nav li{
+     margin-left: 10%;
+  }
+  .Felogo{
+      background-image: url(https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg);
+      display: block;
+      height: 40px;
+      margin-top: 5px;
+      width: 250px;
+      margin-left: 10%;
+  }
+  .social{
+      width:30%;
+  
+  }
+  .social img{
+      width: 100%;
+  }
+    
