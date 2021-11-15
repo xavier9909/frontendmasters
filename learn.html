@@ -6,12 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Front End Master</title>
+
+  <link href='./footer_sw.css' rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css2?family=Asap&family=Festive&family=Open+Sans:wght@400;500&family=Pacifico&display=swap"
     rel="stylesheet">
 
 
+
+
+
   <style>
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
 circle {
 
@@ -81,11 +93,11 @@ animation: cir_anim 4s linear forwards;
     }
 
     body {
-      background-color: rgb(31, 31, 31);
+      background-color: rgb(34, 34, 34);
       color: white;
-      font-family: 'Open Sans', sans-serif;
-      margin:0;
-      padding:0;
+      font-family: 'Open Sans', sans-serif !important;
+      margin:0 !important;
+      padding:0 !important;
 
     }
 
@@ -164,73 +176,52 @@ animation: cir_anim 4s linear forwards;
     }
 
 
-    .navbar{
-    display: flex;
-    justify-content: space-between;
-    
-    
-   
-   
-    /* border: 1px solid black; */
-    padding-top: 0%;
-    background-color: rgb(63, 3, 3);
-    width: 100%;
-  
-   
-  height: 70px;
-    
-}
-#options{
-
-display: flex;
-justify-content:  space-between;
-margin-right: 2.5%;
-}
-.logo{
-    width: 80%;
-    margin-left: 15%;
-    margin-top: 15px;
-}
-
-#options h3{
-    /* padding-left:30px ; */
-    padding-right: 20px;
-    margin-top: 25px;
-}
-
-.nvtxt{
-    color: rgba(255, 255, 255, 0.582);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-}
-.nvtxt:hover{
-    color: white;
-}
-.diagonal{fill:#e66225;
-    height:24px;
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f160c;
   width: 100%;
+  height: 78px;
+}
+#options {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3%;
+
+}
+.logo {
+  width: 92%;
+  margin-left: 10%;
+  padding: 15px;
+}
+
+.nvtxt {
+  color: rgba(255, 255, 255, 0.582);
+  display: flex;
+  font-size: 18px;
+  font-weight: 300;
   
-   
 }
-.btn1{
-   
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    padding-right: 25px;
-    margin-top: -10px;
-    border-radius: 25px;
-    background-color: rgb(199, 38, 38);
-    color: rgb(255, 255, 255);
-  
+.nvtxt:hover {
+  color: white;
 }
-.btn1:hover{
-    background-color: firebrick;
+.diagonal {
+  fill: #e66225;
+  height: 24px;
+  width: 100%;
+}
+.btn1 {
+  padding: 12px 20px;
+  border-radius: 25px;
+  background-color: rgb(199, 38, 38);
+  color: white;
 }
 
-   
-
-
+.btn1:hover {
+  background-color: #d8413c;
+}
 
 
 
@@ -249,11 +240,11 @@ margin-right: 2.5%;
   <div class="navbar">
     <h3><a href=""><img class="logo" src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" alt=""></a></h3>
 <div id="options">
-<h3><a style="text-decoration: none;" href=""><p class="nvtxt">Courses</p> </a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt">Learn</p></a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt">Pricing</p></a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt">Login</p></a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt btn1">Join Now</p></a></h3>
+<h3><a style="text-decoration: none;" href="./corecourse.html"><p class="nvtxt">Courses</p> </a></h3>
+<h3><a style="text-decoration: none;"href="./learn.html"><p class="nvtxt">Learn</p></a></h3>
+<h3><a style="text-decoration: none;"href="./pricing.html"><p class="nvtxt">Pricing</p></a></h3>
+<h3><a style="text-decoration: none;"href="./login.html"><p class="nvtxt">Login</p></a></h3>
+<h3><a style="text-decoration: none;"href="./pricing.html"><p class="nvtxt btn1">Join Now</p></a></h3>
 
 </div>
 </div>
@@ -274,7 +265,7 @@ margin-right: 2.5%;
 
     <div class='head_learn center_div'>
 
-      <img src='img_sw/learnlogo.PNG'>
+      <img src='./img_sw/learnlogo.PNG'>
 
       <h1>Learning Paths</h1>
 
@@ -284,7 +275,7 @@ margin-right: 2.5%;
 
 
 
-    <hr style='width:900px; color: rgb(235, 231, 231);'>
+    <hr style='width:900px; color: rgb(235, 231, 231); margin-bottom: 20px;' >
 
 
     <div id='lp_parent'>
@@ -292,16 +283,53 @@ margin-right: 2.5%;
 
     </div>
 
-  </div>
+   </div>
 
 
 
+ 
+  <!-- footer starts -->
+
+   <div class="footer" >
+    <div class="lst" > 
+    <img class="logo2" src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" alt="">    
+    <ul>
+       <a href=""><li>Courses</li></a>
+       <a href=""><li>Learn</li></a>
+       <a href=""><li>Teachers</li></a>
+       <a href=""><li>Guides</li></a>
+       <a href=""><li>Pricing</li></a>
+       <a href=""><li>Login</li></a>
+       <a href=""><li>Join Now</li></a>
+       <a href=""><li>FAQ</li></a>
+    
+    </ul>
+    
+    </div>
+    
+    <div id="appDiv">
+    <img id="apple" src="./Images/download-on-the-app-store.png" alt="">    
+    <img id="google" src="./Images/en_badge_web_generic.png" alt="">
+    </div>
+    
+    <div class="lstlogo" >
+        <img class="lg" src="./Images/tweet.png" alt="">
+        <img class="lg" src="./Images/linkedin.png" alt="">
+        <img class="lg" src="./Images/fb.png" alt="">
+        <img class="lg" src="./Images/instagram.png" alt="">
+        <p style="color: rgb(143, 134, 134);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 59%;margin-top: 10px; " >Email : <a style="color: orangered;" href="mailto:support@frontendmasters.com">support@frontendmasters.com</a></p>
+    
+    
+    </div>
+    
+    <div id="bottomDiv"> <p>Frontend Masters is proudly made in Minneapolis, MN</p> <p>© 2021 Frontend Masters · <a href="https://static.frontendmasters.com/assets/legal/MasterServicesAgreement.pdf">Terms of Service</a> · <a href="https://static.frontendmasters.com/assets/legal/PrivacyPolicy.pdf">Privacy Policy</a> </p></div>
+    
+    
+    </div>
 
 
 
-
-
-
+    <!-- footer Ends -->
 
 </body>
 
@@ -311,7 +339,7 @@ margin-right: 2.5%;
 
 
   async function getdata_lp() {
-    response = await fetch('http://localhost:5000/api/learningPath')
+    response = await fetch('http://13.232.78.165:5000/api/learningPath')
 
     data = await response.json()
    
@@ -463,10 +491,14 @@ function playcount(counter){
 
 
       clearInterval();
-
+       
       int2 = setInterval(() => {
 
-        if (number <= 0) { clearInterval() }
+        if (number <=0) { 
+       
+          clearInterval() 
+       
+        }
         else{
           number -= 1
 
@@ -481,7 +513,7 @@ function playcount(counter){
     }
 
     else {
-      number += 1
+      number += 0
 
       counter.innerHTML = number + "%"
     }

@@ -14,15 +14,15 @@
   height: 78px;
 }
 #options {
-  width: 27%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 12%;
+  margin-right: 5%;
 }
 .logo {
   width: 92%;
-  margin-left: 60%;
+  margin-left: 10%;
   padding: 15px;
 }
 
@@ -56,7 +56,7 @@ body {
   background-color: #222222;
 }
 
-form {
+.form {
   width: 40%;
   padding: 2%;
   margin: 20px auto;
@@ -66,6 +66,11 @@ form {
   gap: 25px;
   font-size: 17px;
   color: white;
+}
+
+.form input{
+  padding:10px 20px;
+  border-radius: 5px;
 }
 
 #user,
@@ -79,7 +84,7 @@ form {
   outline: none;
 }
 
-#loginBtn {
+#signin {
   width: 20%;
   height: 63px;
   border-radius: 35px;
@@ -88,16 +93,17 @@ form {
   color: white;
   border: none;
 }
-#loginBtn:hover {
+#signin:hover {
   background-color: #d8413c;
 }
 
-#forgot {
+#forget {
   color: #dd625e;
   margin-left: 25%;
   margin-top: -66px;
+  text-decoration: underline;
 }
-#forgot:hover {
+#forget:hover {
   color: #d18189;
 }
 
@@ -107,13 +113,14 @@ footer {
   width: 100%;
   height: 330px;
   background-color: rgba(5, 5, 5, 0.945);
+  margin-top: 100px;
 }
 .logo2 {
   width: 250px;
   margin-top: 60px;
 }
 .lst {
-  margin-left: 80px;
+  margin-left: 60px;
   display: flex;
 }
 ul {

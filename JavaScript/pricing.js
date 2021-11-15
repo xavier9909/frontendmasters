@@ -1,6 +1,9 @@
 function transform() {
     
     let div = document.querySelector('.subscription');
+    
+    console.log(div);
+    
     div.style.background= "#90221E";
     div.style.transform= "scale(1,1.05)";
     div.style.borderTop = "7px solid #C02D28"

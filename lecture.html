@@ -5,17 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link href='./footer_sw.css' rel="stylesheet">
     <link
     href="https://fonts.googleapis.com/css2?family=Asap&family=Festive&family=Open+Sans:wght@400;500&family=Pacifico&display=swap"
     rel="stylesheet">
   <style>
 
-    
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
     
 body {
-      background-color: rgb(33, 33, 33);
+      background-color: rgb(34, 34, 34);
       margin: 0;
       padding: 0;
       color: white;
@@ -28,19 +32,21 @@ body {
     
     
     }
-       .div1>div{display: inline-block; margin: 10px;}
+       .div1>div{display: inline-block; margin: 10px; }
 
        .about_inst>img{width:130px ; height:130px; border-radius: 50%;}
        span{vertical-align: top; }
 
-       .div1>div>img{width:180px; height: 200px;}
+       .div1>div>img{width:170px; height: 200px;}
 
        .div2{background-color: black; color: white;  margin: auto;
-      margin-left: 50px;
+      margin-left: 50px; 
     }
       .t_div{vertical-align: top; width: 500px;}
        .div2>div >div{display: inline-block; margin: 20px; height: 400px;
         font-size: 18px;font-weight:400;line-height:30px ;
+
+        
 
 
     }
@@ -53,7 +59,7 @@ body {
     .lect{width:1200px ; margin: auto;}
        .div2>div{margin: auto;}
 
-       .vid_div>img{margin-left: 100px; width: 600px; height: 350px;}
+       .vid_div>img{margin-left:5px; width: 600px; height: 350px;}
        .t_div>button{padding:20px 80px; background-color: rgb(192, 45, 40); border-radius: 30px; color: white;font-size: 20px;}
     
     
@@ -62,78 +68,51 @@ body {
     
     
     
-    
-    
-    
-       .navbar{
-    display: flex;
-    justify-content: space-between;
-   
-   
-    /* border: 1px solid black; */
-    padding-top: 0%;
-    background-color: rgb(63, 3, 3);
-    width: 100%;
-  
-   
-  height: 70px;
-    
-}
-#options{
-
-display: flex;
-justify-content:  space-between;
-margin-right: 2.5%;
-}
-.logo{
-    width: 80%;
-    margin-left: 15%;
-    margin-top: 15px;
-}
-
-#options h3{
-    /* padding-left:30px ; */
-    padding-right: 20px;
-    margin-top: 25px;
-}
-
-.nvtxt{
-    color: rgba(255, 255, 255, 0.582);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-}
-.nvtxt:hover{
-    color: white;
-}
-.diagonal{fill:#e66225;
-    height:24px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f160c;
   width: 100%;
+  height: 78px;
+}
+#options {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+}
+.logo {
+  width: 92%;
+  margin-left: 10%;
+  padding: 15px;
+}
+
+.nvtxt {
+  color: rgba(255, 255, 255, 0.582);
+  display: flex;
+  font-size: 18px;
+  font-weight: 300;
+}
+.nvtxt:hover {
+  color: white;
+}
+.diagonal {
+  fill: #e66225;
+  height: 24px;
+  width: 100%;
+}
+.btn1 {
+  padding: 12px 20px;
+  border-radius: 25px;
+  background-color: rgb(199, 38, 38);
+  color: white;
+}
+
+.btn1:hover {
+  background-color: #d8413c;
+}
   
-   
-}
-.btn1{
-   
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    padding-right: 25px;
-    margin-top: -10px;
-    border-radius: 25px;
-    background-color: rgb(199, 38, 38);
-    color: rgb(255, 255, 255);
-  
-}
-.btn1:hover{
-    background-color: firebrick;
-}
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
@@ -151,11 +130,11 @@ margin-right: 2.5%;
     <div class="navbar">
         <h3><a href=""><img class="logo" src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" alt=""></a></h3>
     <div id="options">
-    <h3><a style="text-decoration: none;" href=""><p class="nvtxt">Courses</p> </a></h3>
-    <h3><a style="text-decoration: none;"href=""><p class="nvtxt">Learn</p></a></h3>
-    <h3><a style="text-decoration: none;"href=""><p class="nvtxt">Pricing</p></a></h3>
-    <h3><a style="text-decoration: none;"href=""><p class="nvtxt">Login</p></a></h3>
-    <h3><a style="text-decoration: none;"href=""><p class="nvtxt btn1">Join Now</p></a></h3>
+    <h3><a style="text-decoration: none;" href="./corecourse.html"><p class="nvtxt">Courses</p> </a></h3>
+    <h3><a style="text-decoration: none;"href="./learn.html"><p class="nvtxt">Learn</p></a></h3>
+    <h3><a style="text-decoration: none;"href="./pricing.html"><p class="nvtxt">Pricing</p></a></h3>
+    <h3><a style="text-decoration: none;"href="./login.html"><p class="nvtxt">Login</p></a></h3>
+    <h3><a style="text-decoration: none;"href="./pricng.html"><p class="nvtxt btn1">Join Now</p></a></h3>
     
     </div>
     </div>
@@ -221,6 +200,71 @@ margin-right: 2.5%;
 </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer starts -->
+
+<div class="footer" >
+    <div class="lst" > 
+    <img class="logo2" src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" alt="">    
+    <ul>
+       <a href=""><li>Courses</li></a>
+       <a href=""><li>Learn</li></a>
+       <a href=""><li>Teachers</li></a>
+       <a href=""><li>Guides</li></a>
+       <a href=""><li>Pricing</li></a>
+       <a href=""><li>Login</li></a>
+       <a href=""><li>Join Now</li></a>
+       <a href=""><li>FAQ</li></a>
+    
+    </ul>
+    
+    </div>
+    
+    <div id="appDiv">
+    <img id="apple" src="./Images/download-on-the-app-store.png" alt="">    
+    <img id="google" src="./Images/en_badge_web_generic.png" alt="">
+    </div>
+    
+    <div class="lstlogo" >
+        <img class="lg" src="./Images/tweet.png" alt="">
+        <img class="lg" src="./Images/linkedin.png" alt="">
+        <img class="lg" src="./Images/fb.png" alt="">
+        <img class="lg" src="./Images/instagram.png" alt="">
+        <p style="color: rgb(143, 134, 134);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 59%;margin-top: 10px; " >Email : <a style="color: orangered;" href="mailto:support@frontendmasters.com">support@frontendmasters.com</a></p>
+    
+    
+    </div>
+    
+    <div id="bottomDiv"> <p>Frontend Masters is proudly made in Minneapolis, MN</p> <p>© 2021 Frontend Masters · <a href="https://static.frontendmasters.com/assets/legal/MasterServicesAgreement.pdf">Terms of Service</a> · <a href="https://static.frontendmasters.com/assets/legal/PrivacyPolicy.pdf">Privacy Policy</a> </p></div>
+    
+    
+    </div>
+
+
+
+    <!-- footer Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
     
 </body>
 </html>

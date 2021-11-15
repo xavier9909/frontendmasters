@@ -6,11 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link
+  <link href='./footer_sw.css' rel="stylesheet">
+    <link
     href="https://fonts.googleapis.com/css2?family=Asap&family=Festive&family=Open+Sans:wght@400;500&family=Pacifico&display=swap"
     rel="stylesheet">
   <style>
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
     
 
     
@@ -46,7 +52,9 @@ body {
       
       margin-right: 100px;
       width: 700px;
-      padding: 10px;
+      padding: 10px 20px;
+    
+      
 
 
     }
@@ -56,6 +64,8 @@ body {
       font-weight: 400;
       font-size: 27px;
       text-align: left;
+
+      
 
 
     }
@@ -174,7 +184,7 @@ body {
 
   }
   #plus_div>div:nth-child(2n+1){
-    width:50px;height: 35px;
+    width:50px;height: 50px;
     border-radius: 50%;
     padding-top: 40%;
    
@@ -182,7 +192,7 @@ body {
   }
 
   #plus_div>div:nth-child(1){
-    width:50px;height: 35px;
+    width:50px;height: 50px;
    border-radius: 0;
    
   }
@@ -218,9 +228,9 @@ body {
     #svg_el {
       width: 300px;
       height: 350px;
-      padding-left: 30px;
-      padding-top: 30px;
-      margin-top: -87%;
+       padding-left: 14px; 
+      /* padding-top: 10px;  */
+      margin-top: -85%;
 
     }
 
@@ -315,6 +325,8 @@ body {
       background-color: black;
       margin:20px;
       width:1000px;
+
+    
     }
 
     #lp_parent {
@@ -327,66 +339,49 @@ body {
 
 
 
-    .navbar{
-    display: flex;
-    justify-content: space-between;
-   
-   
-    /* border: 1px solid black; */
-    padding-top: 0%;
-    background-color: rgb(63, 3, 3);
-    width: 100%;
-  
-   
-  height: 70px;
-    
-}
-#options{
-
-display: flex;
-justify-content:  space-between;
-margin-right: 2.5%;
-}
-.logo{
-    width: 80%;
-    margin-left: 15%;
-    margin-top: 15px;
-}
-
-#options h3{
-    /* padding-left:30px ; */
-    padding-right: 20px;
-    margin-top: 25px;
-}
-
-.nvtxt{
-    color: rgba(255, 255, 255, 0.582);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-}
-.nvtxt:hover{
-    color: white;
-}
-.diagonal{fill:#e66225;
-    height:24px;
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3f160c;
   width: 100%;
-  
-   
+  height: 78px;
 }
-.btn1{
-   
-    padding-top: 10px;
-    padding-left: 25px;
-    padding-bottom: 10px;
-    padding-right: 25px;
-    margin-top: -10px;
-    border-radius: 25px;
-    background-color: rgb(199, 38, 38);
-    color: rgb(255, 255, 255);
-  
+#options {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 3%;
 }
-.btn1:hover{
-    background-color: firebrick;
+.logo {
+  width: 92%;
+  margin-left: 10%;
+  padding: 15px;
+}
+
+.nvtxt {
+  color: rgba(255, 255, 255, 0.582);
+  display: flex;
+  font-size: 18px;
+  font-weight: 300;
+}
+.nvtxt:hover {
+  color: white;
+}
+.diagonal {
+  fill: #e66225;
+  height: 24px;
+  width: 100%;
+}
+.btn1 {
+  padding: 12px 20px;
+  border-radius: 25px;
+  background-color: rgb(199, 38, 38);
+  color: white;
+}
+
+.btn1:hover {
+  background-color: #d8413c;
 }
 
 
@@ -403,11 +398,11 @@ margin-right: 2.5%;
   <div class="navbar">
     <h3><a href=""><img class="logo" src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" alt=""></a></h3>
 <div id="options">
-<h3><a style="text-decoration: none;" href=""><p class="nvtxt">Courses</p> </a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt">Learn</p></a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt">Pricing</p></a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt">Login</p></a></h3>
-<h3><a style="text-decoration: none;"href=""><p class="nvtxt btn1">Join Now</p></a></h3>
+<h3><a style="text-decoration: none;" href="./corecourse.html"><p class="nvtxt">Courses</p> </a></h3>
+<h3><a style="text-decoration: none;"href="./learn.html"><p class="nvtxt">Learn</p></a></h3>
+<h3><a style="text-decoration: none;"href="./pricing.html"><p class="nvtxt">Pricing</p></a></h3>
+<h3><a style="text-decoration: none;"href="./login.html"><p class="nvtxt">Login</p></a></h3>
+<h3><a style="text-decoration: none;"href="./pricing.html"><p class="nvtxt btn1">Join Now</p></a></h3>
 
 </div>
 </div>
@@ -466,7 +461,7 @@ margin-right: 2.5%;
 
     <div class='head_learn center_div'>
 
-      <img src='img_sw/courselogo.PNG'>
+      <img src='./img_sw/courselogo.PNG'>
 
       <h1>Core Coursework</h1>
 
@@ -513,6 +508,47 @@ margin-right: 2.5%;
 
 
 
+
+  <div class="footer" >
+    <div class="lst" > 
+    <img class="logo2" src="https://static.frontendmasters.com/assets/fm/js/static/frontendmasters.e1e10b58c1.svg" alt="">    
+    <ul>
+       <a href=""><li>Courses</li></a>
+       <a href=""><li>Learn</li></a>
+       <a href=""><li>Teachers</li></a>
+       <a href=""><li>Guides</li></a>
+       <a href=""><li>Pricing</li></a>
+       <a href=""><li>Login</li></a>
+       <a href=""><li>Join Now</li></a>
+       <a href=""><li>FAQ</li></a>
+    
+    </ul>
+    
+    </div>
+    
+    <div id="appDiv">
+    <img id="apple" src="./Images/download-on-the-app-store.png" alt="">    
+    <img id="google" src="./Images/en_badge_web_generic.png" alt="">
+    </div>
+    
+    <div class="lstlogo" >
+        <img class="lg" src="./Images/tweet.png" alt="">
+        <img class="lg" src="./Images/linkedin.png" alt="">
+        <img class="lg" src="./Images/fb.png" alt="">
+        <img class="lg" src="./Images/instagram.png" alt="">
+        <p style="color: rgb(143, 134, 134);font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;padding-left: 59%;margin-top: 10px; " >Email : <a style="color: orangered;" href="mailto:support@frontendmasters.com">support@frontendmasters.com</a></p>
+    
+    
+    </div>
+    
+    <div id="bottomDiv"> <p>Frontend Masters is proudly made in Minneapolis, MN</p> <p>© 2021 Frontend Masters · <a href="https://static.frontendmasters.com/assets/legal/MasterServicesAgreement.pdf">Terms of Service</a> · <a href="https://static.frontendmasters.com/assets/legal/PrivacyPolicy.pdf">Privacy Policy</a> </p></div>
+    
+    
+    </div>
+
+
+
+    <!-- footer Ends -->
 
 
 
@@ -597,6 +633,10 @@ margin-right: 2.5%;
 
       full_ac_btn = document.createElement('button')
       full_ac_btn.innerText = 'Get Full Access'
+
+      full_ac_btn.onclick=function(){
+        window.location.href='Payment.html'
+      }
       full_ac_btn.setAttribute('id', 'w_full_btn')
 
       btn_div.append(watch_free_btn, full_ac_btn)

@@ -1,6 +1,6 @@
  function login(e) {
   e.preventDefault();
-
+  
   let form = document.getElementById("login-form");
 
   let user_data = {
@@ -10,8 +10,7 @@
   };
 
   let data_to_send = JSON.stringify(user_data);
-  console.log(data_to_send); 
-   
+    
   fetch("https://masai-api-mocker.herokuapp.com/auth/login", {
     method: "POST",
 
@@ -62,7 +61,7 @@
       if (localStorage.getItem("frontend_user") === null) {
         localStorage.setItem("frontend_user", JSON.stringify([]));
       } else { 
-       
+          
           let frontend_user = {
           firstname : res.name,
           lastname : res.description,
@@ -73,7 +72,7 @@
         };
   
         let arr = JSON.parse(localStorage.getItem("frontend_user"));
-            
+       
         arr.push(frontend_user);
   
         localStorage.setItem("frontend_user", JSON.stringify(arr));

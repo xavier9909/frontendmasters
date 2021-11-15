@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/swarnikaraj/frontEndMaster-clone#readme",
   "dependencies": {
+    "firebase": "^9.4.1",
     "json-server": "^0.17.0"
   }
 }
